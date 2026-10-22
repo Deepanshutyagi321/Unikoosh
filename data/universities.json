@@ -1,0 +1,204 @@
+[
+  {
+    "slug": "aktu",
+    "name": "Dr. A.P.J. Abdul Kalam Technical University",
+    "shortName": "AKTU",
+    "state": "Uttar Pradesh",
+    "type": "State Technical",
+    "studentCount": "400,000+",
+    "establishedYear": "PLACEHOLDER_VERIFY",
+    "accreditation": "PLACEHOLDER_VERIFY",
+    "about": "PLACEHOLDER_VERIFY",
+    "campusInfo": "PLACEHOLDER_VERIFY",
+    "courses": [],
+    "templateId": 1,
+    "links": {
+      "officialSite": "https://aktu.ac.in",
+      "erp": "PLACEHOLDER_VERIFY",
+      "results": "PLACEHOLDER_VERIFY",
+      "syllabus": "PLACEHOLDER_VERIFY",
+      "admitCard": "PLACEHOLDER_VERIFY",
+      "feePayment": "PLACEHOLDER_VERIFY",
+      "admission": "PLACEHOLDER_VERIFY"
+    },
+    "contact": {
+      "address": "PLACEHOLDER_VERIFY",
+      "phone": "PLACEHOLDER_VERIFY",
+      "email": "PLACEHOLDER_VERIFY"
+    },
+    "commonIssues": [
+      {
+        "title": "OTP not received during login",
+        "fix": "Wait 60 seconds before requesting a new OTP. If it still fails, confirm your registered mobile number with your college ERP coordinator — it can't be self-corrected from the student login."
+      },
+      {
+        "title": "\"Session expired\" during exam form submission",
+        "fix": "This usually happens on slow connections during high-traffic windows. Use a stable connection, avoid submitting in the last hour before a deadline, and don't use the browser back button mid-form."
+      }
+    ],
+    "faqs": [],
+    "lastVerified": "2026-08-01"
+  },
+  {
+    "slug": "lpu",
+    "name": "Lovely Professional University",
+    "shortName": "LPU",
+    "state": "Punjab",
+    "type": "Private",
+    "studentCount": "30,000+",
+    "establishedYear": "PLACEHOLDER_VERIFY",
+    "accreditation": "PLACEHOLDER_VERIFY",
+    "about": "PLACEHOLDER_VERIFY",
+    "campusInfo": "PLACEHOLDER_VERIFY",
+    "courses": [],
+    "links": {
+      "officialSite": "https://www.lpu.in",
+      "erp": "PLACEHOLDER_VERIFY",
+      "results": "PLACEHOLDER_VERIFY",
+      "syllabus": "PLACEHOLDER_VERIFY",
+      "admitCard": "PLACEHOLDER_VERIFY",
+      "feePayment": "PLACEHOLDER_VERIFY",
+      "admission": "PLACEHOLDER_VERIFY"
+    },
+    "contact": {
+      "address": "PLACEHOLDER_VERIFY",
+      "phone": "PLACEHOLDER_VERIFY",
+      "email": "PLACEHOLDER_VERIFY"
+    },
+    "commonIssues": [
+      {
+        "title": "UMS login not accepting correct password",
+        "fix": "Passwords are case-sensitive and reset each semester in some cases — use the \"Forgot Password\" flow rather than repeated attempts, which can temporarily lock the account."
+      }
+    ],
+    "faqs": [],
+    "lastVerified": "2026-08-01"
+  },
+  {
+    "slug": "ignou",
+    "name": "Indira Gandhi National Open University",
+    "shortName": "IGNOU",
+    "state": "Delhi (Pan-India)",
+    "type": "Open/Distance",
+    "studentCount": "3,000,000+",
+    "establishedYear": "PLACEHOLDER_VERIFY",
+    "accreditation": "PLACEHOLDER_VERIFY",
+    "about": "PLACEHOLDER_VERIFY",
+    "campusInfo": "PLACEHOLDER_VERIFY",
+    "courses": [],
+    "templateId": 3,
+    "links": {
+      "officialSite": "https://ignou.ac.in",
+      "erp": "PLACEHOLDER_VERIFY",
+      "results": "PLACEHOLDER_VERIFY",
+      "syllabus": "PLACEHOLDER_VERIFY",
+      "admitCard": "PLACEHOLDER_VERIFY",
+      "feePayment": "PLACEHOLDER_VERIFY",
+      "admission": "PLACEHOLDER_VERIFY"
+    },
+    "contact": {
+      "address": "PLACEHOLDER_VERIFY",
+      "phone": "PLACEHOLDER_VERIFY",
+      "email": "PLACEHOLDER_VERIFY"
+    },
+    "commonIssues": [
+      {
+        "title": "Assignment status shows \"not received\"",
+        "fix": "Portal updates can lag 2-3 weeks behind physical/online submission. Keep your submission receipt as proof rather than resubmitting immediately."
+      }
+    ],
+    "faqs": [],
+    "lastVerified": "2026-08-01"
+  },
+  {
+    "slug": "vtu",
+    "name": "Visvesvaraya Technological University",
+    "shortName": "VTU",
+    "state": "Karnataka",
+    "type": "State Technical",
+    "studentCount": "500,000+",
+    "establishedYear": "PLACEHOLDER_VERIFY",
+    "accreditation": "PLACEHOLDER_VERIFY",
+    "about": "PLACEHOLDER_VERIFY",
+    "campusInfo": "PLACEHOLDER_VERIFY",
+    "courses": [],
+    "links": {
+      "officialSite": "https://vtu.ac.in",
+      "erp": "PLACEHOLDER_VERIFY",
+      "results": "PLACEHOLDER_VERIFY",
+      "syllabus": "PLACEHOLDER_VERIFY",
+      "admitCard": "PLACEHOLDER_VERIFY",
+      "feePayment": "PLACEHOLDER_VERIFY",
+      "admission": "PLACEHOLDER_VERIFY"
+    },
+    "contact": {
+      "address": "PLACEHOLDER_VERIFY",
+      "phone": "PLACEHOLDER_VERIFY",
+      "email": "PLACEHOLDER_VERIFY"
+    },
+    "commonIssues": [],
+    "faqs": [],
+    "lastVerified": "2026-08-01"
+  },
+  {
+    "slug": "chandigarh-university",
+    "name": "Chandigarh University",
+    "shortName": "CU",
+    "state": "Punjab",
+    "type": "Private",
+    "studentCount": "40,000+",
+    "establishedYear": "PLACEHOLDER_VERIFY",
+    "accreditation": "PLACEHOLDER_VERIFY",
+    "about": "PLACEHOLDER_VERIFY",
+    "campusInfo": "PLACEHOLDER_VERIFY",
+    "courses": [],
+    "templateId": 5,
+    "links": {
+      "officialSite": "https://www.cuchd.in",
+      "erp": "PLACEHOLDER_VERIFY",
+      "results": "PLACEHOLDER_VERIFY",
+      "syllabus": "PLACEHOLDER_VERIFY",
+      "admitCard": "PLACEHOLDER_VERIFY",
+      "feePayment": "PLACEHOLDER_VERIFY",
+      "admission": "PLACEHOLDER_VERIFY"
+    },
+    "contact": {
+      "address": "PLACEHOLDER_VERIFY",
+      "phone": "PLACEHOLDER_VERIFY",
+      "email": "PLACEHOLDER_VERIFY"
+    },
+    "commonIssues": [],
+    "faqs": [],
+    "lastVerified": "2026-08-01"
+  },
+  {
+    "slug": "amity-university",
+    "name": "Amity University",
+    "shortName": "Amity",
+    "state": "Uttar Pradesh (Multi-campus)",
+    "type": "Private",
+    "studentCount": "125,000+",
+    "establishedYear": "PLACEHOLDER_VERIFY",
+    "accreditation": "PLACEHOLDER_VERIFY",
+    "about": "PLACEHOLDER_VERIFY",
+    "campusInfo": "PLACEHOLDER_VERIFY",
+    "courses": [],
+    "links": {
+      "officialSite": "https://www.amity.edu",
+      "erp": "PLACEHOLDER_VERIFY",
+      "results": "PLACEHOLDER_VERIFY",
+      "syllabus": "PLACEHOLDER_VERIFY",
+      "admitCard": "PLACEHOLDER_VERIFY",
+      "feePayment": "PLACEHOLDER_VERIFY",
+      "admission": "PLACEHOLDER_VERIFY"
+    },
+    "contact": {
+      "address": "PLACEHOLDER_VERIFY",
+      "phone": "PLACEHOLDER_VERIFY",
+      "email": "PLACEHOLDER_VERIFY"
+    },
+    "commonIssues": [],
+    "faqs": [],
+    "lastVerified": "2026-08-01"
+  }
+]

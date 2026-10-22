@@ -1,0 +1,23 @@
+name: Check university links
+
+on:
+  schedule:
+    # Runs daily at 03:00 UTC (~08:30 IST). Adjust the cron expression if
+    # you'd rather run it more/less often.
+    - cron: "0 3 * * *"
+  workflow_dispatch: {} # lets you trigger it manually from the Actions tab
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: npm run check-links
+        env:
+          # Set MONGODB_URI as a repository secret:
+          # Settings → Secrets and variables → Actions → New repository secret
+          MONGODB_URI: ${{ secrets.MONGODB_URI }}
