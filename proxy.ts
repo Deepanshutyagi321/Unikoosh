@@ -1,5 +1,10 @@
 import { NextResponse } from "next/server";
-import { auth } from "@/auth";
+import NextAuth from "next-auth";
+import { authConfig } from "@/auth.config";
+
+// Built from the Edge-safe config only — importing "@/auth" here would
+// pull mongoose into the Edge bundle and break the deploy.
+const { auth } = NextAuth(authConfig);
 
 // Routes that manage admins themselves are SUPER_ADMIN-only — a normal
 // ADMIN or EDITOR should never reach these, at the routing layer or the
