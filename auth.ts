@@ -1,4 +1,5 @@
 import NextAuth from "next-auth";
+import { authConfig } from "@/auth.config";
 import Credentials from "next-auth/providers/credentials";
 import bcrypt from "bcryptjs";
 import connectDB from "@/lib/mongoose";
@@ -13,8 +14,7 @@ export const {
   signOut,
   auth,
 } = NextAuth({
-  session: { strategy: "jwt" },
-  pages: { signIn: "/admin/login", error: "/admin/login" },
+  ...authConfig,
   providers: [
     Credentials({
       credentials: {
@@ -83,25 +83,4 @@ export const {
       },
     }),
   ],
-  callbacks: {
-    async jwt({ token, user }) {
-      if (user) {
-        token.id = user.id;
-        token.role = user.role;
-        token.permissions = user.permissions;
-        token.assignedUniversities = user.assignedUniversities;
-      }
-      return token;
-    },
-    async session({ session, token }) {
-      if (session.user) {
-        session.user.id = token.id as string;
-        session.user.role = token.role as AdminRole;
-        session.user.permissions = token.permissions as Permission[];
-        session.user.assignedUniversities =
-          token.assignedUniversities as string[];
-      }
-      return session;
-    },
-  },
 });
